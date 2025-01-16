@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Quiz Extension",
+    "version": "1.0",
+    "description": "A simple quiz extension",
+    "action": {
+        "default_popup": "quize.html",
+        "default_icon": {
+            "16": "quiz.png",
+            "48": "quiz.png",
+            "128": "quiz.png"
+        }
+    },
+    "icons": {
+        "16": "quiz.png",
+        "32": "quiz.png",
+        "48": "quiz.png",
+        "128": "quiz.png"
+    },
+    "permissions": []
+}

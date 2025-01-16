@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    background: #150404;
+    color: #fff;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    height: 100vh;
+}
+#password{
+padding: 1rem;
+width: 100%;
+font-size: 1.3rem;
+border: 2px solid #49ea3d;
+border-radius: 0.5rem;
+outline: none;
+text-transform: capitalize;
+}

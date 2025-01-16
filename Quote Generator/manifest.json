@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Random Quote Generator",
+  "version": "2.0",
+  "description": "A Chrome extension that generates random quotes.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "quotes.png",
+      "48": "quotes.png",
+      "128": "quotes.png"
+    }
+  },
+  "icons": {
+        "16": "quotes.png",
+        "128": "quotes.png"
+
+    },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ]
+}
