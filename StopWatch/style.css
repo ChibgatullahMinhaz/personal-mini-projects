@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 20px;
+    background-color: rgb(54, 54, 63);
+    color: white;
+    font-size: 1.2rem;
+}
+.active {
+    background-color: red;
+}
