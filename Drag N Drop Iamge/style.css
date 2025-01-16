@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.empty {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: white;
+    margin: 10px;
+}
+
+.img-box {
+    background-image: url("bangkok.jpg");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.hold {
+    border: 5px dashed black;
+    background-color: grey;
+}

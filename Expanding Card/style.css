@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.inner_container{
+    margin:10px;
+    height: 90vh;
+    width: 25%;
+    background: white no-repeat scroll center;
+    flex:1;
+    filter: grayscale(1);
+    transition: flex 0.5s ease-in-out;
+}
+.inner_container h3{
+    color: white;
+    font-size: 24px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px;
+}
+.active{
+    flex: 4;
+    filter: grayscale(0);
+
+}
+#inner_container_1{
+    background-image: url('img/ctg.jpg') ;
+    background-repeat: no-repeat;
+}
+#inner_container_2{
+    background-image: url('img/dhaka.jpg') ;
+    background-repeat: no-repeat;
+}
+#inner_container_3{
+    background-image: url('img/bangkok.jpg') ;
+    background-repeat: no-repeat;
+}
+#inner_container_4{
+    background-image: url('img/mumbai.jpg') ;
+    background-repeat: no-repeat;
+}
+#inner_container_5{
+    background-image: url('img/quebec.jpg') ;
+    background-repeat: no-repeat;
+}
+#inner_container_6{
+    background-image: url('img/spain.jpg') ;
+    background-repeat: no-repeat;
+}
+#inner_container_7{
+    background-image: url('img/tokyo.jpg') ;
+    background-repeat: no-repeat;
+}
